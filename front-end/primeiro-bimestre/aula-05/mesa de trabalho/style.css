@@ -1,0 +1,22 @@
+.body {
+  background-color: rgb(172, 172, 172)
+}
+
+.title {
+  color: rgb(39, 1, 255);
+}
+
+.job-title {
+  background-color: rgb(0, 0, 255);
+  color: rgb(172, 172, 172);
+  font-style: oblique;
+}
+
+ul {
+  color: azure;
+  background-color: rgb(36, 36, 36);
+  list-style: none;
+  text-align: left;
+  font-size: 12px;
+  padding-left: 0rem;
+}

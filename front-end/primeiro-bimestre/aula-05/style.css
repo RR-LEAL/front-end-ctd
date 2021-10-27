@@ -1,0 +1,28 @@
+.main-title {
+  color: #161616;
+  font-size: 42px;
+}
+
+.main-subtitle {
+  color: #808080;
+}
+
+.post {
+  background-color: #c9c9c9;
+}
+
+.post h1 {
+  color: #c70d0d;
+}
+
+.post a {
+  color: white;
+  background-color: slateblue;
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 8px;
+}
+
+ul, ol, .main-title {
+  background-color: skyblue;
+}
