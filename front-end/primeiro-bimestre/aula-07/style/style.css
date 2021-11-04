@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+
+ background-color:#05011a;
+
+}
+
+header {
+
+    background-image: url("https://hbomax-images.warnermediacdn.com/images/GYXG8YwRRdr3CMAEAAAAX/tileburnedin?size=1280x720&partner=hbomaxcom&language=pt-br&v=c45f1b311994a78e2a8b1e0cbd3c6fb4&host=art-gallery-latam.api.hbo.com&w=1280");
+    background-size: cover;
+    background-position: center;
+    border-radius: 300px;
+    
+  }
+
+  h1 {
+
+    padding: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+
+  }
+
+  
+  h2 {
+
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 100px;
+  
+  }
+  
+
+  .buttonClick {
+
+    background-color: #440244;
+    text-align: center;
+    text-decoration: none;
+    color: #e0dfdf;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 150px;
+    border-style: none;
+    margin: 10% 43%;
+    padding: 10px 40px ;
+    position: absolute;
+  }
