@@ -1,0 +1,115 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body {
+
+  max-width: 600%;
+
+}
+
+main {
+
+  width: 1000px;
+  height: 570px;
+  background-image: url(https://cdn1.dotesports.com/wp-content/uploads/sites/3/2021/06/11164957/new-world-wallpaper-2048x1152-1-1024x576.jpg);
+  opacity: 0.85;
+  
+}
+
+.registration {
+
+  color: antiquewhite;
+  /* text-align: center; */
+
+}
+
+img {
+  
+  width: 400px;
+  margin-top: 42px;
+  position: relative;
+  left: 300px;
+  
+}
+
+.title {
+
+  text-align: center;
+  margin-top: 42px;
+  margin-bottom: 24px;
+
+}
+
+.box {
+
+  position: relative;
+  left: 350px;
+
+}
+
+
+.input {
+
+  color: antiquewhite;
+  background-color: darkslategray;
+  margin-left: 24px;
+  border-radius: 12px;
+
+}
+
+.input1 {
+
+  color: antiquewhite;
+  background-color: darkslategray;
+  margin-top: 12px;
+  margin-left: 92px;
+  border-radius: 12px;
+
+}
+
+.select {
+
+  color: antiquewhite;
+  background-color: darkslategray;
+  margin-top: 12px;
+  margin-left: 95px;
+  border-radius: 12px;
+
+}
+
+.userDescription {
+
+ position: relative;
+ bottom: 24px;
+}
+
+.input3 {
+
+  color: antiquewhite;
+  background-color: darkslategray;
+  margin-top: 12px;
+  margin-left: 52px;
+  resize: vertical;
+  border-radius: 12px;
+
+}
+
+button {
+
+  color: antiquewhite;
+  background-color: darkslategray;
+  font-size: 14px;
+  margin-top: 24px;
+  margin-left: 12px;
+  position: relative;
+  left: 155px;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 5px;
+}

@@ -24,6 +24,8 @@ header {
 
 h1 {
 
+    position: relative;
+    top: 50px;
     text-align: center;
     color: white;
     font-family: 'Open Sans';
@@ -77,7 +79,7 @@ h1 {
 .caixa3 {
 
     position:absolute ;
-    left: 90%;
-    top: 0%;
+    right: 0;
+    top: 0;
 
 }

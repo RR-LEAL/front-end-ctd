@@ -1,0 +1,52 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.menu {
+
+  background-color: hsla(276, 100%, 15%, 0.87);
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  
+}
+
+.menu-list {
+
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.menu-list a {
+
+  color: aliceblue; 
+  text-decoration: none; 
+  padding: 10px 24px;
+
+}
+
+
+header {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://reference.vteximg.com.br/arquivos/ids/289804/loja-cor.jpg?v=636529360927200000");
+  background-size: cover;
+  background-position: center;
+  margin-top: 38px;  
+}
+
+.catalog {
+
+  width: 250px;
+  height: 250px;
+
+}
