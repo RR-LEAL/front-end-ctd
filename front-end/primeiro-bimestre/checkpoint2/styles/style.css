@@ -1,0 +1,137 @@
+/* // @import url("https://www.dafont.com/pt/ninja-naruto.fonty=swap");
+// @import url("https://www.dafont.com/pt/ninja-naruto.font"); */
+
+@font-face {
+    font-family: 'njnaruto';
+    src: url('./Assets/njnaruto.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://www.wallpapertip.com/wmimgs/33-336738_konoha-background.jpghttps://i.ibb.co/7bxjmzm/630463.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-size: 2500px 940px; */
+  background-color: #000;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  font-family: "njnaruto";
+  background-color: #37b857;
+}
+
+.nav-title {
+
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;  
+}
+
+.nav-title img {
+
+  width: 50px;
+  margin: 0 auto;
+
+}
+
+.nav-menu {
+
+  display: flex;
+  /* gap: 24px; */
+}
+
+.nav-menu ul {
+
+  display: flex;
+  gap: 28px;
+  padding: 24px 0;
+
+}
+
+.nav-menu .button-menu {
+
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #188834;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;  
+
+}
+
+
+
+main {
+  background-color: #00000080;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 50px 100px;
+  font-family:sans-serif
+}
+
+h1,
+h2 {
+  font-family: "njnaruto";
+}
+
+iframe {
+  align-items: center;
+  width: 90%;
+  height: 720px;
+  margin: 50px;
+}
+
+.title {
+
+  padding: 24px;
+
+}
+
+ul {
+  list-style: none
+}
+
+.button {
+
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #188834;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  transition: .4s;
+
+}
+
+.button:hover {
+
+  background-color: #3bf76a;
+
+}
+
+.social-media img {
+  width: 50px;
+  margin: 50px 10px;
+  transition: .3s;
+  
+}
+
+.social-media img:hover {
+
+  transform: translate(0, -10px);
+
+}
