@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicatessen Friu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Faça seu pedido</h1>
+
+  <form>
+
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+
+      <div>
+        <label for="username">Nome Completo:</label>
+        <input type="text" name="username" id="username">
+      </div>
+      
+      
+      <div>
+        <label for="phone">Telefone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="(21)99999-9999">
+      </div>
+      
+      <div>
+        <label for="address">Endereço:</label>
+        <input type="text" name="userAddress" id="userAddress">
+      </div>      
+    </fieldset>
+    
+    <div>
+      <label for="requestDate">Data do pedido</label>
+      <input type="datetime-local" name="requestDate" id="requestDate">
+    </div>
+    
+    <fieldset>
+      <legend>Observação</legend>
+      <div>
+        <label for="note">Depoimento:</label>
+        <textarea name="note" id="note"></textarea>
+      </div>
+    </fieldset>
+  </form>
+
+</body>
+</html>
