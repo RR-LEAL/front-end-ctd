@@ -20,18 +20,21 @@ background-color: #000;
 background-attachment: fixed;
 }
 
+
 header {
-
-  background-color: green;
-  height: 80px;
-  margin: 0 auto;
-
+  padding: 20px;
+  text-align: center;
+  font-family: "njnaruto";
+  background-color: #37b857;
+  height: 120px ;
 }
+
 
 header h1 {
   
-  color: white;
+  color: rgb(10, 70, 15);
   padding: 20px;
   text-align: center;
+  font-family: njnaruto;
 
 }
