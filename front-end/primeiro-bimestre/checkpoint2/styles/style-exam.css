@@ -125,13 +125,13 @@ label {
 .custom-input {
 
   border: 0;
-  background-color: #b6b3b3;
+  background-color: #ffffff;
   padding: 6px 10px;
   border-radius: 12px;
-  transition: .5s;
+  transition: .3s;
   margin-bottom: 20px;
   width: 200px;
-  transition: .5s ease-in-out;
+  transition: .3s ease-in-out;
 
 }
 
@@ -214,10 +214,15 @@ label {
 
 }
 
-
 .custom-checkbox:checked {
 
   width: 20px;
   height: 20px;
+
+}
+
+.h6 {
+
+  
 
 }
