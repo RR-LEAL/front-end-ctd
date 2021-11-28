@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 @font-face {
   font-family: 'njnaruto';
   src: url('./Assets/njnaruto.ttf');
@@ -12,15 +16,22 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, legend, label {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend,
+label {
 
-  color: #eee7e7;
+  color: #ffffff;
 
 }
 
 body {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://vignette.wikia.nocookie.net/naruto/images/9/9d/Ch%C5%ABnin_Exams_Stadium.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://vignette.wikia.nocookie.net/naruto/images/9/9d/Ch%C5%ABnin_Exams_Stadium.png");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -32,19 +43,19 @@ header {
   text-align: center;
   font-family: "njnaruto";
   background-color: rgba(55, 184, 87);
-  height: 100px ;
+  height: 100px;
 }
 
 .title {
 
-    color: rgba(0, 0, 0);
+  color: rgba(0, 0, 0);
 }
 
 .nav-title {
 
   display: flex;
   gap: 24px;
-  justify-content: space-evenly;  
+  justify-content: space-evenly;
 }
 
 .nav-title img {
@@ -56,10 +67,13 @@ header {
 
 }
 
+
 .main-title {
 
   text-align: center;
   margin-top: 32px;
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -77,14 +91,121 @@ fieldset {
 
 }
 
+legend {
+
+  font-size: 20px;
+  color: rgb(82, 163, 79);
+  font-family: 'Roboto', sans-serif;
+
+}
+
+label {
+
+  color: white;
+
+}
+
 .personal-data {
 
   padding: 12px 100px 12px 200px;
-  
+
 }
+
+.personal-data label {
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-input {
+
+  border: 0;
+  background-color: #b6b3b3;
+  padding: 6px 10px;
+  border-radius: 12px;
+  transition: .5s;
+  margin-bottom: 20px;
+  width: 200px;
+  transition: .5s ease-in-out;
+
+}
+
+.custom-input:hover {
+
+  background-color: #ffffff;
+  width: 220px;
+
+}
+
 
 .village {
 
   padding: 12px;
+  margin: 20px;
+
+}
+
+.name-village {
+
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.kekkei {
+
+  margin: 20px;
+  padding: 12px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.kekkei h3 {
+
+  margin: 20px 12px;
+}
+
+
+.ckeck-kekkei img {
+
+  width: 40px;
+  height: 55px;
+
+}
+
+.ckeck-kekkei img :hover {
+
+  width: 100px;
+
+}
+
+.ckeck-kekkei {
+
+  width: 50px;
+  height: 50px;
+
+}
+
+.ckeck-kekkei:hover {
+
+  width: 90px;
+  height: 90px;
+  display: flexbox;
+
+
+}
+
+.custom-checkbox {
+
+  width: 15px;
+  height: 15px;
+
+}
+
+
+.custom-checkbox:checked {
+
+  width: 20px;
+  height: 20px;
 
 }
