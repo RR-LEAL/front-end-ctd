@@ -15,7 +15,7 @@
 }
 
 body {
-  background-image: url("https://www.wallpapertip.com/wmimgs/33-336738_konoha-background.jpghttps://i.ibb.co/7bxjmzm/630463.jpg");
+  background-image: url("https://wallpapercave.com/wp/wp5845540.png");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   font-family: "njnaruto";
   background-color: #37b857;
@@ -43,45 +43,46 @@ header {
 .nav-title img {
 
   width: 40px;
-  margin: 0 auto;
+  height: 40px;
+  object-fit: cover;
+  margin: 12px auto;
   
-  
-
 }
 
 .nav-menu {
 
   display: flex;
   /* gap: 24px; */
+  justify-content: center;
 }
 
 .nav-menu ul {
 
   display: flex;
   gap: 28px;
-  padding: 24px 0;
+  padding: 1px 0;
 
 }
 
-.nav-menu .button-menu {
+.nav-menu ul a {
 
-  border: none;
-  border-radius: 20px;
-  color: #ffffff;
-  background-color: #188834;
-  font-size: 16px;
-  font-weight: bold;
-  padding: 12px;  
+  color: #000;
+  text-decoration: none;
+  transition: .2s;
 
 }
 
+.nav-menu ul a:hover {
 
+  color: #cf6f00;
+  
+}
 
 main {
   background-color: #00000080;
   text-align: center;
   font-size: 20px;
-  color: #ffffff;
+  color: #eee7e7;
   padding: 50px 100px;
   font-family:sans-serif
 }
@@ -89,6 +90,7 @@ main {
 h1,
 h2 {
   font-family: "njnaruto";
+  align-items: center;
 }
 
 iframe {
@@ -112,7 +114,7 @@ ul {
 
   border: none;
   border-radius: 20px;
-  color: #ffffff;
+  color: #eee7e7;
   background-color: #188834;
   font-size: 16px;
   font-weight: bold;
@@ -139,3 +141,4 @@ ul {
   transform: translate(0, -10px);
 
 }
+

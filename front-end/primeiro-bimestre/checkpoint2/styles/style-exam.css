@@ -6,35 +6,85 @@
 }
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, legend, label {
+
+  color: #eee7e7;
+
 }
 
 body {
-background-image: url("https://www.wallpapertip.com/wmimgs/33-336738_konoha-background.jpghttps://i.ibb.co/7bxjmzm/630463.jpg");
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-color: #000;
-background-attachment: fixed;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://vignette.wikia.nocookie.net/naruto/images/9/9d/Ch%C5%ABnin_Exams_Stadium.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 
 header {
-  padding: 20px;
+  padding: 24px;
   text-align: center;
   font-family: "njnaruto";
-  background-color: #37b857;
-  height: 120px ;
+  background-color: rgba(55, 184, 87);
+  height: 100px ;
 }
 
+.title {
 
-header h1 {
-  
-  color: rgb(10, 70, 15);
-  padding: 20px;
+    color: rgba(0, 0, 0);
+}
+
+.nav-title {
+
+  display: flex;
+  gap: 24px;
+  justify-content: space-evenly;  
+}
+
+.nav-title img {
+
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin: 0 auto;
+
+}
+
+.main-title {
+
   text-align: center;
-  font-family: njnaruto;
+  margin-top: 32px;
+
+}
+
+form {
+
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+fieldset {
+
+  margin: 24px 0;
+
+}
+
+.personal-data {
+
+  padding: 12px 100px 12px 200px;
+  
+}
+
+.village {
+
+  padding: 12px;
 
 }
