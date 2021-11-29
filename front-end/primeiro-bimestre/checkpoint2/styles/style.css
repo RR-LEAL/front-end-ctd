@@ -20,7 +20,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   /* background-size: 2500px 940px; */
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
   background-attachment: fixed;
   
 }
@@ -29,7 +29,7 @@ header {
   padding: 10px;
   text-align: center;
   font-family: "njnaruto";
-  background-color: #37b857;
+  background-color: rgb(55, 184, 87);
   height: 120px ;
 }
 
@@ -66,7 +66,7 @@ header {
 
 .nav-menu ul a {
 
-  color: #000;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: .2s;
 
@@ -74,15 +74,15 @@ header {
 
 .nav-menu ul a:hover {
 
-  color: #cf6f00;
+  color: rgb(207, 111, 0);
   
 }
 
 main {
-  background-color: #00000080;
+  background-color: rgba(0, 0, 0, 0.502);
   text-align: center;
   font-size: 20px;
-  color: #eee7e7;
+  color: rgb(238, 231, 231);
   padding: 50px 100px;
   font-family:sans-serif
 }
@@ -114,8 +114,8 @@ ul {
 
   border: none;
   border-radius: 20px;
-  color: #eee7e7;
-  background-color: #188834;
+  color: rgb(238, 231, 231);
+  background-color: rgb(24, 136, 52);
   font-size: 16px;
   font-weight: bold;
   padding: 12px;
@@ -125,7 +125,7 @@ ul {
 
 .button:hover {
 
-  background-color: #3bf76a;
+  background-color: rgb(59, 247, 106);
 
 }
 
