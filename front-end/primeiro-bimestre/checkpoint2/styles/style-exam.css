@@ -221,8 +221,19 @@ label {
 
 }
 
-.h6 {
+.alinhamentoBotao {
 
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0px;
   
+}
+
+.tamanhoBotao input  {
+
+padding: 10px 20px;
+
+
 
 }
